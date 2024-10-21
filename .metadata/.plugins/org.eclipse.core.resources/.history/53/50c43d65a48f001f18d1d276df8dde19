@@ -17,7 +17,7 @@ int main(void)
  * Boylece output moda gecmez, ledler ayni sekilde yanmaya devam eder.
  * GPIO_LockPin dogru calismazsa buton output moda gecer, ledler yanmaz.
  */
-	GPIO_LockPin(GPIOA, GPIO_PIN_0);
+	//GPIO_LockPin(GPIOA, GPIO_PIN_0);
 
 	LockControl();
 
