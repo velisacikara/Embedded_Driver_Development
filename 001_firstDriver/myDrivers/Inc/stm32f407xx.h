@@ -165,21 +165,49 @@ typedef struct
 }RCC_TypeDef_t;
 
 
+typedef struct
+{
+	__IO uint32_t MEMRMP;     /*!< SYSCFG memory remap register                      Address offset = 0x00  */
+	__IO uint32_t PMC; 		  /*!< SYSCFG peripheral mode configuration register     Address offset = 0x04  */
+	__IO uint32_t EXTI_CR[4]; /*!< SYSCFG external interrupt configuration register  Address offset = 0x08  */
+	__IO uint32_t CMPCR;      /*!< SYSCFG Compensation cell control register         Address offset = 0x20  */
+}SYSCFG_TypeDef_t;
 
-#define GPIOA					( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
-#define GPIOB					( (GPIO_TypeDef_t *)(GPIOB_BASE_ADDR) )
-#define GPIOC					( (GPIO_TypeDef_t *)(GPIOC_BASE_ADDR) )
-#define GPIOD					( (GPIO_TypeDef_t *)(GPIOD_BASE_ADDR) )
-#define GPIOE					( (GPIO_TypeDef_t *)(GPIOE_BASE_ADDR) )
-#define GPIOF					( (GPIO_TypeDef_t *)(GPIOF_BASE_ADDR) )
-#define GPIOG					( (GPIO_TypeDef_t *)(GPIOG_BASE_ADDR) )
-#define GPIOH					( (GPIO_TypeDef_t *)(GPIOH_BASE_ADDR) )
-#define GPIOI					( (GPIO_TypeDef_t *)(GPIOI_BASE_ADDR) )
-#define GPIOJ					( (GPIO_TypeDef_t *)(GPIOJ_BASE_ADDR) )
-#define GPIOK					( (GPIO_TypeDef_t *)(GPIOK_BASE_ADDR) )
 
-#define RCC 					( (RCC_TypeDef_t  *)(RCC_BASE_ADDR)   )
+typedef struct
+{
+	__IO uint32_t IMR;    /*!< Interrupt mask register                Address offset = 0x00  */
+	__IO uint32_t EMR;    /*!< Event mask register                    Address offset = 0x04  */
+	__IO uint32_t RTSR;   /*!< Rising trigger selection register      Address offset = 0x08  */
+	__IO uint32_t FTSR;   /*!< Falling trigger selection register     Address offset = 0x0C  */
+	__IO uint32_t SWIER;  /*!< Software interrupt event register      Address offset = 0x10  */
+	__IO uint32_t PR;     /*!< Pending register                       Address offset = 0x014 */
+}EXTI_TypeDef_t;
 
+
+
+/*
+ * Bases adress definitions of ports
+ *
+ */
+
+#define GPIOA					( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR)    )
+#define GPIOB					( (GPIO_TypeDef_t *)(GPIOB_BASE_ADDR)    )
+#define GPIOC					( (GPIO_TypeDef_t *)(GPIOC_BASE_ADDR)    )
+#define GPIOD					( (GPIO_TypeDef_t *)(GPIOD_BASE_ADDR)    )
+#define GPIOE					( (GPIO_TypeDef_t *)(GPIOE_BASE_ADDR)    )
+#define GPIOF					( (GPIO_TypeDef_t *)(GPIOF_BASE_ADDR)    )
+#define GPIOG					( (GPIO_TypeDef_t *)(GPIOG_BASE_ADDR)    )
+#define GPIOH					( (GPIO_TypeDef_t *)(GPIOH_BASE_ADDR)    )
+#define GPIOI					( (GPIO_TypeDef_t *)(GPIOI_BASE_ADDR)    )
+#define GPIOJ					( (GPIO_TypeDef_t *)(GPIOJ_BASE_ADDR)    )
+#define GPIOK					( (GPIO_TypeDef_t *)(GPIOK_BASE_ADDR)    )
+
+#define RCC 					( (RCC_TypeDef_t  *)(RCC_BASE_ADDR)      )
+
+#define SYSCFG 					( (SYSCFG_TypeDef_t *)(SYSCFG_BASE_ADDR) )
+
+#define EXTI					( (EXTI_TypeDef_t *)(EXTI_BASE_ADDR)     )
 
 
 /*
@@ -215,13 +243,13 @@ typedef struct
 
 
 
-
-#include "RCC.h"
-/* En sona bu header file eklendi.
+/* En sona bu header file dosyalari eklendi.
  * Böylece main.c'de tek bir header file (stm32f407xx.h) cagrilarak islem yapildi.
  *
  * */
+#include "RCC.h"
 #include "GPIO.h"
+#include "EXTI.h"
 
 
 #endif /* INC_STM32F407XX_H_ */

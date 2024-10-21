@@ -250,6 +250,73 @@ Discarded input sections
  .text          0x0000000000000000       0x14 ./Startup/startup_stm32f407vgtx.o
  .data          0x0000000000000000        0x0 ./Startup/startup_stm32f407vgtx.o
  .bss           0x0000000000000000        0x0 ./Startup/startup_stm32f407vgtx.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .group         0x0000000000000000        0xc ./myDrivers/Src/EXTI.o
+ .text          0x0000000000000000        0x0 ./myDrivers/Src/EXTI.o
+ .data          0x0000000000000000        0x0 ./myDrivers/Src/EXTI.o
+ .bss           0x0000000000000000        0x0 ./myDrivers/Src/EXTI.o
+ .debug_info    0x0000000000000000       0x76 ./myDrivers/Src/EXTI.o
+ .debug_abbrev  0x0000000000000000       0x29 ./myDrivers/Src/EXTI.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x172 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0xa78 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x22 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x8e ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x51 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x103 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x6a ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x1df ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x52 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x18 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x3c ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x34 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x174 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x16 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x43 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x34 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x10 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x58 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x71 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x1c ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x12a ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x341 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x10 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x35 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x20 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000      0x1ef ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0x40 ./myDrivers/Src/EXTI.o
+ .debug_macro   0x0000000000000000       0xbe ./myDrivers/Src/EXTI.o
+ .debug_line    0x0000000000000000      0x534 ./myDrivers/Src/EXTI.o
+ .debug_str     0x0000000000000000     0x8225 ./myDrivers/Src/EXTI.o
+ .comment       0x0000000000000000       0x51 ./myDrivers/Src/EXTI.o
+ .ARM.attributes
+                0x0000000000000000       0x2e ./myDrivers/Src/EXTI.o
  .group         0x0000000000000000        0xc ./myDrivers/Src/GPIO.o
  .group         0x0000000000000000        0xc ./myDrivers/Src/GPIO.o
  .group         0x0000000000000000        0xc ./myDrivers/Src/GPIO.o
@@ -306,7 +373,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./myDrivers/Src/GPIO.o
  .debug_macro   0x0000000000000000       0x35 ./myDrivers/Src/GPIO.o
  .debug_macro   0x0000000000000000       0x20 ./myDrivers/Src/GPIO.o
- .debug_macro   0x0000000000000000      0x1e1 ./myDrivers/Src/GPIO.o
+ .debug_macro   0x0000000000000000      0x1ef ./myDrivers/Src/GPIO.o
  .debug_macro   0x0000000000000000       0x40 ./myDrivers/Src/GPIO.o
  .group         0x0000000000000000        0xc ./myDrivers/Src/RCC.o
  .group         0x0000000000000000        0xc ./myDrivers/Src/RCC.o
@@ -342,7 +409,7 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x29 ./myDrivers/Src/RCC.o
  .debug_aranges
                 0x0000000000000000       0x18 ./myDrivers/Src/RCC.o
- .debug_macro   0x0000000000000000      0x16d ./myDrivers/Src/RCC.o
+ .debug_macro   0x0000000000000000      0x178 ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000      0xa78 ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000       0x22 ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000       0x8e ./myDrivers/Src/RCC.o
@@ -367,11 +434,11 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000       0x35 ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000       0x20 ./myDrivers/Src/RCC.o
- .debug_macro   0x0000000000000000      0x1e1 ./myDrivers/Src/RCC.o
+ .debug_macro   0x0000000000000000      0x1ef ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000       0xb8 ./myDrivers/Src/RCC.o
  .debug_macro   0x0000000000000000       0x40 ./myDrivers/Src/RCC.o
- .debug_line    0x0000000000000000      0x529 ./myDrivers/Src/RCC.o
- .debug_str     0x0000000000000000     0x81b9 ./myDrivers/Src/RCC.o
+ .debug_line    0x0000000000000000      0x533 ./myDrivers/Src/RCC.o
+ .debug_str     0x0000000000000000     0x8224 ./myDrivers/Src/RCC.o
  .comment       0x0000000000000000       0x51 ./myDrivers/Src/RCC.o
  .ARM.attributes
                 0x0000000000000000       0x2e ./myDrivers/Src/RCC.o
@@ -434,6 +501,7 @@ LOAD ./Src/main.o
 LOAD ./Src/syscalls.o
 LOAD ./Src/sysmem.o
 LOAD ./Startup/startup_stm32f407vgtx.o
+LOAD ./myDrivers/Src/EXTI.o
 LOAD ./myDrivers/Src/GPIO.o
 LOAD ./myDrivers/Src/RCC.o
 START GROUP
@@ -766,50 +834,50 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_ranges  0x0000000000000020       0x20 ./Startup/startup_stm32f407vgtx.o
  .debug_ranges  0x0000000000000040       0x30 ./myDrivers/Src/GPIO.o
 
-.debug_macro    0x0000000000000000     0x1dcc
- .debug_macro   0x0000000000000000      0x163 ./Src/main.o
- .debug_macro   0x0000000000000163      0xa78 ./Src/main.o
- .debug_macro   0x0000000000000bdb       0x22 ./Src/main.o
- .debug_macro   0x0000000000000bfd       0x8e ./Src/main.o
- .debug_macro   0x0000000000000c8b       0x51 ./Src/main.o
- .debug_macro   0x0000000000000cdc      0x103 ./Src/main.o
- .debug_macro   0x0000000000000ddf       0x6a ./Src/main.o
- .debug_macro   0x0000000000000e49      0x1df ./Src/main.o
- .debug_macro   0x0000000000001028       0x52 ./Src/main.o
- .debug_macro   0x000000000000107a       0x18 ./Src/main.o
- .debug_macro   0x0000000000001092       0x3c ./Src/main.o
- .debug_macro   0x00000000000010ce       0x34 ./Src/main.o
- .debug_macro   0x0000000000001102      0x174 ./Src/main.o
- .debug_macro   0x0000000000001276       0x16 ./Src/main.o
- .debug_macro   0x000000000000128c       0x43 ./Src/main.o
- .debug_macro   0x00000000000012cf       0x34 ./Src/main.o
- .debug_macro   0x0000000000001303       0x10 ./Src/main.o
- .debug_macro   0x0000000000001313       0x58 ./Src/main.o
- .debug_macro   0x000000000000136b       0x71 ./Src/main.o
- .debug_macro   0x00000000000013dc       0x1c ./Src/main.o
- .debug_macro   0x00000000000013f8      0x12a ./Src/main.o
- .debug_macro   0x0000000000001522      0x341 ./Src/main.o
- .debug_macro   0x0000000000001863       0x10 ./Src/main.o
- .debug_macro   0x0000000000001873       0x35 ./Src/main.o
- .debug_macro   0x00000000000018a8       0x20 ./Src/main.o
- .debug_macro   0x00000000000018c8      0x1e1 ./Src/main.o
- .debug_macro   0x0000000000001aa9       0x40 ./Src/main.o
- .debug_macro   0x0000000000001ae9       0xbe ./Src/main.o
- .debug_macro   0x0000000000001ba7      0x16d ./myDrivers/Src/GPIO.o
- .debug_macro   0x0000000000001d14       0xb8 ./myDrivers/Src/GPIO.o
+.debug_macro    0x0000000000000000     0x1df0
+ .debug_macro   0x0000000000000000      0x16e ./Src/main.o
+ .debug_macro   0x000000000000016e      0xa78 ./Src/main.o
+ .debug_macro   0x0000000000000be6       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000c08       0x8e ./Src/main.o
+ .debug_macro   0x0000000000000c96       0x51 ./Src/main.o
+ .debug_macro   0x0000000000000ce7      0x103 ./Src/main.o
+ .debug_macro   0x0000000000000dea       0x6a ./Src/main.o
+ .debug_macro   0x0000000000000e54      0x1df ./Src/main.o
+ .debug_macro   0x0000000000001033       0x52 ./Src/main.o
+ .debug_macro   0x0000000000001085       0x18 ./Src/main.o
+ .debug_macro   0x000000000000109d       0x3c ./Src/main.o
+ .debug_macro   0x00000000000010d9       0x34 ./Src/main.o
+ .debug_macro   0x000000000000110d      0x174 ./Src/main.o
+ .debug_macro   0x0000000000001281       0x16 ./Src/main.o
+ .debug_macro   0x0000000000001297       0x43 ./Src/main.o
+ .debug_macro   0x00000000000012da       0x34 ./Src/main.o
+ .debug_macro   0x000000000000130e       0x10 ./Src/main.o
+ .debug_macro   0x000000000000131e       0x58 ./Src/main.o
+ .debug_macro   0x0000000000001376       0x71 ./Src/main.o
+ .debug_macro   0x00000000000013e7       0x1c ./Src/main.o
+ .debug_macro   0x0000000000001403      0x12a ./Src/main.o
+ .debug_macro   0x000000000000152d      0x341 ./Src/main.o
+ .debug_macro   0x000000000000186e       0x10 ./Src/main.o
+ .debug_macro   0x000000000000187e       0x35 ./Src/main.o
+ .debug_macro   0x00000000000018b3       0x20 ./Src/main.o
+ .debug_macro   0x00000000000018d3      0x1ef ./Src/main.o
+ .debug_macro   0x0000000000001ac2       0x40 ./Src/main.o
+ .debug_macro   0x0000000000001b02       0xbe ./Src/main.o
+ .debug_macro   0x0000000000001bc0      0x178 ./myDrivers/Src/GPIO.o
+ .debug_macro   0x0000000000001d38       0xb8 ./myDrivers/Src/GPIO.o
 
-.debug_line     0x0000000000000000      0xcb0
- .debug_line    0x0000000000000000      0x59d ./Src/main.o
- .debug_line    0x000000000000059d       0x84 ./Startup/startup_stm32f407vgtx.o
- .debug_line    0x0000000000000621      0x68f ./myDrivers/Src/GPIO.o
+.debug_line     0x0000000000000000      0xcc4
+ .debug_line    0x0000000000000000      0x5a7 ./Src/main.o
+ .debug_line    0x00000000000005a7       0x84 ./Startup/startup_stm32f407vgtx.o
+ .debug_line    0x000000000000062b      0x699 ./myDrivers/Src/GPIO.o
 
-.debug_str      0x0000000000000000     0x82a3
- .debug_str     0x0000000000000000     0x81ed ./Src/main.o
-                                       0x83ed (size before relaxing)
- .debug_str     0x00000000000081ed       0x31 ./Startup/startup_stm32f407vgtx.o
+.debug_str      0x0000000000000000     0x830e
+ .debug_str     0x0000000000000000     0x8258 ./Src/main.o
+                                       0x8458 (size before relaxing)
+ .debug_str     0x0000000000008258       0x31 ./Startup/startup_stm32f407vgtx.o
                                          0x5a (size before relaxing)
- .debug_str     0x000000000000821e       0x85 ./myDrivers/Src/GPIO.o
-                                       0x8328 (size before relaxing)
+ .debug_str     0x0000000000008289       0x85 ./myDrivers/Src/GPIO.o
+                                       0x8393 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
  .comment       0x0000000000000000       0x50 ./Src/main.o
