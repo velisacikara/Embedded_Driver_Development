@@ -1,0 +1,616 @@
+15:38:32 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+15:38:35 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+15:39:26 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+16:32:08 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../myDrivers/Src/RCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/RCC.d" -MT"myDrivers/Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/RCC.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+16:52:04 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../myDrivers/Src/RCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/RCC.d" -MT"myDrivers/Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/RCC.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+16:52:39 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+16:53:02 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+17:34:49 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+15:02:37 **** Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+15:02:51 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+15:02:59 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+15:03:29 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+15:06:56 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+15:53:36 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+16:18:39 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+16:31:32 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../myDrivers/Src/RCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/RCC.d" -MT"myDrivers/Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/RCC.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+16:39:33 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+17:30:17 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+17:30:26 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+21:00:35 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../myDrivers/Src/RCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/RCC.d" -MT"myDrivers/Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/RCC.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+21:02:04 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1120	      8	   1568	   2696	    a88	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+13:38:02 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1056	      8	   1568	   2632	    a48	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+13:38:21 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../myDrivers/Src/RCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/RCC.d" -MT"myDrivers/Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/RCC.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1056	      8	   1568	   2632	    a48	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+13:39:12 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1112	      8	   1568	   2688	    a80	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+13:41:19 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1136	      8	   1568	   2712	    a98	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+13:44:11 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1276	      8	   1568	   2852	    b24	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+13:45:09 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1276	      8	   1568	   2852	    b24	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+14:06:13 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:57:13: warning: 'LockKontrol' defined but not used [-Wunused-function]
+   57 | static void LockKontrol()
+      |             ^~~~~~~~~~~
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1276	      8	   1568	   2852	    b24	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+14:07:25 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+In file included from ../Src/main.c:3:
+../Src/main.c: In function 'main':
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:169:19: error: incompatible type for argument 1 of 'GPIO_LockPin'
+  169 | #define GPIOA     ( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |
+      |                   GPIO_TypeDef_t *
+../Src/main.c:16:15: note: in expansion of macro 'GPIOA'
+   16 |  GPIO_LockPin(GPIOA, GPIO_PIN_0);
+      |               ^~~~~
+In file included from D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:224,
+                 from ../Src/main.c:3:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:34: note: expected 'GPIO_TypeDef_t' but argument is of type 'GPIO_TypeDef_t *'
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |                   ~~~~~~~~~~~~~~~^~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:07:55 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+In file included from ../Src/main.c:3:
+../Src/main.c: In function 'main':
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:169:19: error: incompatible type for argument 1 of 'GPIO_LockPin'
+  169 | #define GPIOA     ( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |
+      |                   GPIO_TypeDef_t *
+../Src/main.c:16:15: note: in expansion of macro 'GPIOA'
+   16 |  GPIO_LockPin(GPIOA, GPIO_PIN_0);
+      |               ^~~~~
+In file included from D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:224,
+                 from ../Src/main.c:3:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:34: note: expected 'GPIO_TypeDef_t' but argument is of type 'GPIO_TypeDef_t *'
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |                   ~~~~~~~~~~~~~~~^~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:09:19 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1336	      8	   1568	   2912	    b60	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+14:09:37 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+In file included from ../Src/main.c:3:
+../Src/main.c: In function 'main':
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:169:19: error: incompatible type for argument 1 of 'GPIO_LockPin'
+  169 | #define GPIOA     ( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |
+      |                   GPIO_TypeDef_t *
+../Src/main.c:16:15: note: in expansion of macro 'GPIOA'
+   16 |  GPIO_LockPin(GPIOA, GPIO_PIN_0);
+      |               ^~~~~
+In file included from D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:224,
+                 from ../Src/main.c:3:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:34: note: expected 'GPIO_TypeDef_t' but argument is of type 'GPIO_TypeDef_t *'
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |                   ~~~~~~~~~~~~~~~^~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:10:20 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../myDrivers/Src/GPIO.c:164:6: error: conflicting types for 'GPIO_LockPin'
+  164 | void GPIO_LockPin(GPIO_TypeDef_t *GPIOx, uint16_t pinNumber)
+      |      ^~~~~~~~~~~~
+In file included from ../myDrivers/Src/GPIO.c:8:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:6: note: previous declaration of 'GPIO_LockPin' was here
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |      ^~~~~~~~~~~~
+../myDrivers/Src/GPIO.c: In function 'GPIO_LockPin':
+../myDrivers/Src/GPIO.c:170:7: error: 'GPIOx' is a pointer; did you mean to use '->'?
+  170 |  GPIOx.LCKR = tempValue; // LCKR[16] = '1' , LCKR[15:0] = DATA
+      |       ^
+      |       ->
+../myDrivers/Src/GPIO.c:171:7: error: 'GPIOx' is a pointer; did you mean to use '->'?
+  171 |  GPIOx.LCKR = pinNumber; // LCKR[16] = '0' , LCKR[15:0] = DATA
+      |       ^
+      |       ->
+../myDrivers/Src/GPIO.c:172:7: error: 'GPIOx' is a pointer; did you mean to use '->'?
+  172 |  GPIOx.LCKR = tempValue; // LCKR[16] = '1' , LCKR[15:0] = DATA
+      |       ^
+      |       ->
+../myDrivers/Src/GPIO.c:173:19: error: 'GPIOx' is a pointer; did you mean to use '->'?
+  173 |  tempValue = GPIOx.LCKR; // Lock register okunur.
+      |                   ^
+      |                   ->
+In file included from ../Src/main.c:3:
+../Src/main.c: In function 'main':
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:169:19: error: incompatible type for argument 1 of 'GPIO_LockPin'
+  169 | #define GPIOA     ( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |
+      |                   GPIO_TypeDef_t *
+../Src/main.c:16:15: note: in expansion of macro 'GPIOA'
+   16 |  GPIO_LockPin(GPIOA, GPIO_PIN_0);
+      |               ^~~~~
+In file included from D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:224,
+                 from ../Src/main.c:3:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:34: note: expected 'GPIO_TypeDef_t' but argument is of type 'GPIO_TypeDef_t *'
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |                   ~~~~~~~~~~~~~~~^~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [myDrivers/Src/subdir.mk:22: myDrivers/Src/GPIO.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:10:51 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../myDrivers/Src/GPIO.c:164:6: error: conflicting types for 'GPIO_LockPin'
+  164 | void GPIO_LockPin(GPIO_TypeDef_t *GPIOx, uint16_t pinNumber)
+      |      ^~~~~~~~~~~~
+In file included from ../myDrivers/Src/GPIO.c:8:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:6: note: previous declaration of 'GPIO_LockPin' was here
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |      ^~~~~~~~~~~~
+In file included from ../Src/main.c:3:
+../Src/main.c: In function 'main':
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:169:19: error: incompatible type for argument 1 of 'GPIO_LockPin'
+  169 | #define GPIOA     ( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |
+      |                   GPIO_TypeDef_t *
+../Src/main.c:16:15: note: in expansion of macro 'GPIOA'
+   16 |  GPIO_LockPin(GPIOA, GPIO_PIN_0);
+      |               ^~~~~
+In file included from D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:224,
+                 from ../Src/main.c:3:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:34: note: expected 'GPIO_TypeDef_t' but argument is of type 'GPIO_TypeDef_t *'
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |                   ~~~~~~~~~~~~~~~^~~~~
+make: *** [myDrivers/Src/subdir.mk:22: myDrivers/Src/GPIO.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:11:24 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../myDrivers/Src/GPIO.c:164:6: error: conflicting types for 'GPIO_LockPin'
+  164 | void GPIO_LockPin(GPIO_TypeDef_t *GPIOx, uint16_t pinNumber)
+      |      ^~~~~~~~~~~~
+In file included from ../myDrivers/Src/GPIO.c:8:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:6: note: previous declaration of 'GPIO_LockPin' was here
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |      ^~~~~~~~~~~~
+In file included from ../Src/main.c:3:
+../Src/main.c: In function 'main':
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:169:19: error: incompatible type for argument 1 of 'GPIO_LockPin'
+  169 | #define GPIOA     ( (GPIO_TypeDef_t *)(GPIOA_BASE_ADDR) )
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                   |
+      |                   GPIO_TypeDef_t *
+../Src/main.c:16:15: note: in expansion of macro 'GPIOA'
+   16 |  GPIO_LockPin(GPIOA, GPIO_PIN_0);
+      |               ^~~~~
+In file included from D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/stm32f407xx.h:224,
+                 from ../Src/main.c:3:
+D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc/GPIO.h:113:34: note: expected 'GPIO_TypeDef_t' but argument is of type 'GPIO_TypeDef_t *'
+  113 | void GPIO_LockPin(GPIO_TypeDef_t GPIOx, uint16_t pinNumber);
+      |                   ~~~~~~~~~~~~~~~^~~~~
+make: *** [myDrivers/Src/subdir.mk:22: myDrivers/Src/GPIO.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+14:12:49 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../myDrivers/Src/GPIO.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/GPIO.d" -MT"myDrivers/Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/GPIO.o"
+arm-none-eabi-gcc "../myDrivers/Src/RCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"myDrivers/Src/RCC.d" -MT"myDrivers/Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "myDrivers/Src/RCC.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1400	      8	   1568	   2976	    ba0	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+14:13:02 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1400	      8	   1568	   2976	    ba0	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+14:13:36 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1336	      8	   1568	   2912	    b60	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+14:14:01 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1400	      8	   1568	   2976	    ba0	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+14:24:50 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-size   001_firstDriver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1400	      8	   1568	   2976	    ba0	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+14:26:33 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1400	      8	   1568	   2976	    ba0	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 
+14:45:11 **** Incremental Build of configuration Debug for project 001_firstDriver ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"D:/EmbeddedDrivers/001_firstDriver/myDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001_firstDriver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\EmbeddedDrivers\001_firstDriver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_firstDriver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_firstDriver.elf
+ 
+arm-none-eabi-size   001_firstDriver.elf 
+arm-none-eabi-objdump -h -S  001_firstDriver.elf  > "001_firstDriver.list"
+   text	   data	    bss	    dec	    hex	filename
+   1336	      8	   1568	   2912	    b60	001_firstDriver.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_firstDriver.list
+ 

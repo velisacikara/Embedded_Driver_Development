@@ -1,0 +1,65 @@
+
+
+#include "stm32f407xx.h"
+
+
+static void GPIO_LedConfig(); // Bir fonksiyon static tanimlanirsa sadece bulundugu dosyada kullanilabilir.
+
+
+int main(void)
+{
+/*
+	uint32_t *mainAddr = GPIOA;
+	uint32_t * moder = &GPIOA->MODER;
+	uint32_t *otyper = &GPIOA->OTYPER;
+	uint32_t *pupdr = &GPIOA->PUPDR;
+
+	uint32_t *CmainAddr = GPIOC;
+	uint32_t * Cmoder = &GPIOC->MODER;
+	uint32_t *Cotyper = &GPIOC->OTYPER;
+	uint32_t *Cpupdr = &GPIOC->PUPDR;
+*/
+/*
+	RCC_GPIOA_CLK_ENABLE();
+	RCC_GPIOB_CLK_ENABLE();
+	RCC_GPIOC_CLK_ENABLE();
+	RCC_GPIOD_CLK_ENABLE();
+	RCC_GPIOE_CLK_ENABLE();
+
+	RCC_GPIOA_CLK_DISABLE();
+	RCC_GPIOB_CLK_DISABLE();
+	RCC_GPIOC_CLK_DISABLE();
+	RCC_GPIOD_CLK_DISABLE();
+	RCC_GPIOE_CLK_DISABLE();
+*/
+
+
+	GPIO_LedConfig();
+
+	GPIO_WritePin(GPIOD, GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15, GPIO_Pin_Set);
+
+	for(;;);
+}
+
+
+static void GPIO_LedConfig()
+{
+	RCC_GPIOD_CLK_ENABLE(); // Clock is active
+	GPIO_InitTypeDef_t GPIO_LedStruct = { 0 };
+	GPIO_LedStruct.pinNumber = GPIO_PIN_12 | GPIO_PIN_13 | GPIO_PIN_14 | GPIO_PIN_15;
+	GPIO_LedStruct.Mode = GPIO_MODE_OUTPUT;
+	GPIO_LedStruct.Speed = GPIO_SPEED_LOW;
+	GPIO_LedStruct.Otype = GPIO_OTYPE_PP;
+	GPIO_LedStruct.PuPd = GPIO_PUPD_NOPULL;
+
+	GPIO_Init(GPIOD, &GPIO_LedStruct); // Configure
+}
+
+
+
+
+
+
+
+
+
